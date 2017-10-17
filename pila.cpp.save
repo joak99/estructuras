@@ -1,0 +1,18 @@
+#include <vector>
+using namespace std;
+
+template <class T> 
+
+class Pila : public vector <T> {
+	public:
+		Pila();
+		-Pila();
+		void adicionar(T elemento){
+			push_back(elemento)
+		}
+		void mostrar(){
+		}
+};
+template <class T>
+Pila <T>::Pila(): vector<T>(){;
+
