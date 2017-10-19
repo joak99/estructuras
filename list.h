@@ -14,7 +14,7 @@ class List : public vector <L>{
 		L eliminate(int pos);
 		void show();
 		int length();
-		void insert(L element);
+		void insert1(L element, int pos);
 		int search(L element);
 		L getElement(int pos);
 		void setElement(L element, int pos);

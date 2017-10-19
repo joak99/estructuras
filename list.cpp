@@ -26,10 +26,6 @@ int List <L>:: length(){
 	cout << endl;
 }
 /*
-template <class L>
-void List<L>:: insert(L element){
-
-}*/
 
 template <class L>
 int List <L>:: search(L element){
@@ -45,7 +41,13 @@ int List <L>:: search(L element){
 		}
 	cout <<"Sorry, the element wasn't found."<<endl;
 	}
+}*/
+template <class L>
+void List <L>:: insert1(L element, int pos){
+
+	this -> insert(pos, element);
+
 }
-//template <class L>
+
 //template <class L>
 //template <class L
